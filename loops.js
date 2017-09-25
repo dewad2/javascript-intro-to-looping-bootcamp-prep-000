@@ -32,3 +32,18 @@ function doWhileLoop(array) {
 
   return array;
 }
+
+
+function theBeatlesPlay(musicians, instruments) {
+
+  var emptyArray = [];
+
+  for (var i = 0; i < musicians.length; i++) {
+    var musician = musicians[i];
+    var instrument = instruments[i];
+    emptyArray.push(musician + ' plays ' + instrument);
+
+    return emptyArray;
+
+  }
+}
